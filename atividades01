@@ -17,4 +17,23 @@
                                 (compras <= 800) ? "desconto de 30% no if" : "desconto de 40% no if";
                 System.out.println(descontoIf);
 
+                 int idade = 23;
+                String texto = idade > 18 ? "maior idade" : "menor idade";
+                System.out.println(texto);
+                
+
+                int premio = 6;
+                switch (premio) {
+                    case 1:
+                        System.out.println("carro");
+                        break;
+                    case 2:
+                        System.out.println("PlayStation");
+                        break;
+                    case 3:
+                        System.out.println("R$10,00");
+                        break;
+                    default:
+                        System.out.println("Não foi dessa vez");
+
             }
